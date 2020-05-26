@@ -1,0 +1,102 @@
+{
+  "name": "szy-mb-tpl2.0",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint --fix",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dns": "^0.2.2",
+    "dsbridge": "^3.1.4",
+    "js-base64": "^2.5.2",
+    "js-md5": "^0.7.3",
+    "mockjs": "^1.0.1-beta3",
+    "postcss-pxtorem": "^4.0.1",
+    "qs": "^6.9.0",
+    "swiper": "^4.5.0",
+    "szyutils": "^1.1.2",
+    "tim-js-sdk": "^2.5.1",
+    "vant": "^2.2.10",
+    "vue": "^2.6.6",
+    "vue-clipboard2": "^0.3.1",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0",
+    "zx-editor": "^3.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-import": "^1.12.2",
+    "eslint": "^5.8.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.11.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-url": "^8.0.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "env": {
+      "browser": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "standard"
+    ],
+    "plugins": [
+      "vue"
+    ],
+    "rules": {
+      "generator-star-spacing": "off",
+      "no-debugger": "error",
+      "indent": [
+        "error",
+        "tab"
+      ],
+      "no-tabs": "off",
+      "no-return-await": "off"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-import": {},
+      "postcss-url": {},
+      "postcss-cssnext": {},
+      "postcss-pxtorem": {
+        "rootValue": 75,
+        "propList": [
+          "*"
+        ],
+        "selectorBlackList": [
+          "van-",
+          "zx-"
+        ]
+      }
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

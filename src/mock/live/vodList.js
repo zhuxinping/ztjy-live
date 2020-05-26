@@ -1,0 +1,6 @@
+import Mock from 'mockjs'
+import { USER_API_URL } from '@/api/modules/user'
+
+export const getVodListMock = (params) => {
+	return { 'returncode': '10000', 'message': '获放取直播播页信息成功', 'body': { 'vodlist': [{ 'vodid': 1042, 'vodtitle': '33', 'filesize': 231, 'time': '00:00:05', 'playurl': 'http://1253408107.vod2.myqcloud.com/2dc0195evodgzp1253408107/208461bf5285890799860638319/vS8SjghkZ1EA.mp4' }], 'playInfo': { 'liveid': 5588, 'livetitle': 'Hsudhdhuduq ', 'livebackground': 'http://gw.szytest.com/FmszmpjP0cuYy-3tIAi6-QM0ObE7', 'livestate': 2, 'liveplayurl': '', 'busiiconurl': 'http://gw.szytest.com/default/live_gif.gif', 'liveshareinfo': { 'appid': 'wx4d782b2e5d8aa9ce', 'timestamp': '1583921093', 'noncestr': 'UHGn6YvFi49B2LRdiH0rxX31', 'signature': '057ed29a731b17baf125c064c28d27f90ba7d369', 'msgtitle': 'Hsudhdhuduq ', 'summary': '[001号]推荐一个公开课给您。', 'shareurl': 'https://wx.szy.cn/H5Server/live/watchLivePage?shareUserId=67a8d7ba3745445d9d97&liveId=5588&exptime=&t=1583919243026&sid=aBVUrlvBS9xvI028EtU&sign=E4226B037D90D11C1DD44828D5FB53F5&share_f=teacher&share_t=wechat_h&share_u=67a8d7ba3745445d9d97', 'sharemsgurl': 'https://wx.szy.cn/H5Serverwww.baidu.com' } }, 'reportingTime': 1 } }
+}

@@ -1,0 +1,123 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\zhuxp\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add .
+
+PATH: 
+  C:\Users\zhuxp\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\local\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\zhuxp\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Go\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\nodejs;D:\flutter\bin;C:\Users\zhuxp\go\bin;C:\Users\zhuxp\go\bin;D:\flutter\bin;D:\Program Files\JetBrains\PhpStorm 2019.2.4\bin;C:\Users\zhuxp\AppData\Roaming\npm;D:\Program Files\Git\usr\bin\vendor_perl;D:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+
+npm manifest: 
+  {
+    "name": "szy-mb-tpl2.0",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "vue-cli-service serve",
+      "build": "vue-cli-service build",
+      "lint": "vue-cli-service lint",
+      "start": "npm run dev"
+    },
+    "dependencies": {
+      "axios": "^0.18.0",
+      "dns": "^0.2.2",
+      "dsbridge": "^3.1.4",
+      "mockjs": "^1.0.1-beta3",
+      "postcss-pxtorem": "^4.0.1",
+      "qs": "^6.9.0",
+      "swiper": "^4.5.0",
+      "szyutils": "^1.1.2",
+      "vant": "^2.2.10",
+      "vue": "^2.6.6",
+      "vue-clipboard2": "^0.3.1",
+      "vue-router": "^3.0.2",
+      "vuex": "^3.1.0"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "^3.5.0",
+      "@vue/cli-plugin-eslint": "^3.5.0",
+      "@vue/cli-service": "^3.5.0",
+      "babel-eslint": "^10.0.1",
+      "babel-plugin-import": "^1.12.2",
+      "eslint": "^5.8.0",
+      "eslint-config-standard": "^12.0.0",
+      "eslint-friendly-formatter": "^4.0.1",
+      "eslint-loader": "^2.1.2",
+      "eslint-plugin-html": "^5.0.3",
+      "eslint-plugin-import": "^2.16.0",
+      "eslint-plugin-node": "^8.0.1",
+      "eslint-plugin-promise": "^4.0.1",
+      "eslint-plugin-standard": "^4.0.0",
+      "eslint-plugin-vue": "^5.0.0",
+      "node-sass": "^4.11.0",
+      "postcss-cssnext": "^3.1.0",
+      "postcss-import": "^12.0.1",
+      "postcss-loader": "^3.0.0",
+      "postcss-url": "^8.0.0",
+      "sass-loader": "^7.1.0",
+      "vue-template-compiler": "^2.5.21"
+    },
+    "eslintConfig": {
+      "root": true,
+      "parserOptions": {
+        "parser": "babel-eslint"
+      },
+      "env": {
+        "browser": true
+      },
+      "extends": [
+        "plugin:vue/essential",
+        "standard"
+      ],
+      "plugins": [
+        "vue"
+      ],
+      "rules": {
+        "generator-star-spacing": "off",
+        "no-debugger": "error",
+        "indent": [
+          "error",
+          "tab"
+        ],
+        "no-tabs": "off",
+        "no-return-await": "off"
+      }
+    },
+    "postcss": {
+      "plugins": {
+        "postcss-import": {},
+        "postcss-url": {},
+        "postcss-cssnext": {},
+        "postcss-pxtorem": {
+          "rootValue": 75,
+          "propList": [
+            "*"
+          ],
+          "selectorBlackList": [
+            "van-"
+          ]
+        }
+      }
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not ie <= 8"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
